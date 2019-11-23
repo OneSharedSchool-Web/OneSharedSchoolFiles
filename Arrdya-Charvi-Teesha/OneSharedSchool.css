@@ -1,0 +1,75 @@
+*{
+  margin: 30px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+:root{
+
+    --mc:#58a8dd;
+
+    --sc:#376C8E;
+
+    --bgc:#ecf0f1;
+}
+body{
+    background-color: var(--bgc);
+    font-family: 'Lato', sans-serif;
+}
+.motto{
+  display: flex;
+  background: url(https://onesharedschool.org/wp-content/uploads/2018/12/capturing-the-human-heart-FQ1L770x6l8-unsplash-1500x500.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  font-size: 50px;
+  font-family: 'Lato', sans-serif;
+  color:  var(--mc);
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+
+
+}
+.other{
+  background-color: var(--mc);
+}
+#motto{
+  font-size: 40px;
+  font-family: 'Lato', sans-serif;
+  color:  var(--sc);
+  font-weight: bold;
+  opacity: 1.0;
+
+}
+#opc{
+  background-color: var(--bgc);
+  opacity: 0.7;
+}
+.aboutUs{
+  padding: 10px;
+  height: 25%;
+  outline: dashed;
+}
+.imgOne{
+  background-image: url(https://onesharedschool.org/wp-content/uploads/2018/12/6.png);
+}
+.cont{
+  background-color: var(--mc);
+  margin: 0;
+  height: 50vh;
+}
+.split3{
+    /*background-color: #2a9d8f;*/
+    display: flex;
+    flex-direction: row;
+    height: 400;
+
+    font-family: 'Fira Sans', sans-serif;
+}
+.splitting{
+    width: 33%;
+    margin: 10;
+}
+.impact{
+  background-image: url(https://onesharedschool.org/wp-content/uploads/2018/12/z.p.-school-pandvir-1-488x326.jpg);
+}
