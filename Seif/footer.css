@@ -1,0 +1,18 @@
+footer {
+         
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: grey;
+    padding: 30px 0px;
+    background-color: #ECF0F1;
+}
+
+.col {
+    color: #376C8E;
+    width: 10px;
+}
+
+.row {
+    height: 50px;
+}

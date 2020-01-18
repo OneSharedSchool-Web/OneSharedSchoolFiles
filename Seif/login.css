@@ -1,0 +1,55 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.transparent {
+    background-color: rgba(255, 255, 255, 0.144);
+    color: white;
+    border: none;
+}
+
+.transparent2 {
+    background-color: rgba(255, 255, 255, 0.521);
+    color: white;
+    border: none;
+}
+
+.transparent-panel {
+    background-color: rgba(255, 255, 255, 0.267);
+    border: none;
+}
+
+#txt {
+    color: white;
+
+}
+
+.he {
+    background: url("background.jpg");
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;  
+}
+
+.transparent-panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-fluid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-75%, -50%);
+}
+
+h1 {
+    font-family: Roboto-Bold, sans-serif;
+}
